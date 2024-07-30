@@ -1,0 +1,40 @@
+@media  screen and (max-width: 1000px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px 0px;
+    }
+
+    nav ul {
+        height: 2vh;
+        padding: 10px 0px;
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .search input {
+        height: 2vh;
+        padding: 8px 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card-item {
+        font-size: 11px;
+    }
+} 
+
+
+@media screen and (max-width: 460px) {
+    .card-item {
+        font-size: 7px;
+    }
+} 
